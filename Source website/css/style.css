@@ -1,0 +1,158 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Arial;
+}
+
+body{
+    background-color: #99CCFF;
+}
+
+h1{
+	margin-left: 5px;
+}
+
+h2{
+	margin-left: 5px;
+}
+
+h3{
+	margin-left: 5px;
+}
+
+form{
+	margin: 5px;
+}
+
+form input{
+	margin: 2px;
+}
+
+p{
+	margin-left:5px;
+}
+
+a:visited{
+	color: #40157B;
+}
+
+button{
+	padding: 3px;
+	margin: 5px;
+	cursor:pointer;
+	background:#49B449;
+	border:0px solid #33842a;
+	border-radius: 5px;
+	box-shadow: 0 0 3px rgba(0,0,0, .625);
+	font-size:1.1em;
+}
+button:hover, button:focus{
+	background-color :#43A945;
+	box-shadow: 0 0 1px rgba(0,0,0, .625);
+}
+
+
+a:link, a:visited{
+    text-decoration: none;
+}
+
+a:hover, a:active{
+    text-decoration: underline;
+}
+
+#nav_menu{
+	text-align: justify
+}
+
+#nav_menu ul{
+	padding: 0;
+	list-style: none;
+	display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: flex;
+    -webkit-justify-content:space-around;
+    -moz-justify-content:space-around;
+    -ms-justify-content:space-around;
+    justify-content:space-around;
+	margin-top: 15px; margin-bottom: 15px; margin-left: 5px;
+}
+
+#nav_menu li{
+}
+
+#nav_menu li a:link, li a:visited{
+	padding: 5px;
+    background-color: #49B449;
+	color: #000000;
+    text-decoration: none;
+	border-radius:5px;
+	font-size:1.1vw;
+	box-shadow: 0 0 3px rgba(0,0,0, .625);
+}
+
+#nav_menu li a:hover{
+	background-color: #43A945;
+	box-shadow: 0 0 1px rgba(0,0,0, .625);
+}
+
+#main_wrapper{
+	width: 50%;
+	min-width: 500px;
+	margin: 20px auto;
+	text-align: left;
+	padding: 0px;
+}
+
+#top_header{
+	text-align: center;
+}
+
+#login_wrapper{
+	position: absolute;
+	background-color: #88C1F4;
+	border: 1px solid black;
+	width: 25%;
+	min-width: 350px;
+	top: 35%;
+	left: 37.5%;
+	text-align: center;
+}
+
+#bottom_footer{
+	text-align: center;
+}
+
+#image_section{
+	
+}
+
+#image_section p{
+	padding-top: 5px;
+	padding-bottom: 5px;
+	font-family: Franklin Gothic;
+	font-size: 22px;
+	text-align: center;
+}
+
+#image_section img{
+	max-width: 100%;
+	max-height: 75vh;
+}
+
+#image_section form{
+	text-align: center;
+}
+
+#image_section button{
+	padding: 3px;
+	font-size: 1.25em;
+}
+
+#like_table, #dislike_table{
+	text-align: center;
+}
+
+#like_table img, #dislike_table img{
+	width:100%;
+}
