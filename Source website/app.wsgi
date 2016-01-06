@@ -710,7 +710,7 @@ def adminPanelAdd(db): #Applies the row to the table with an path to the uploade
 		db.execute("SELECT username FROM accounts WHERE username='{0}'".format(username))
 		row = db.fetchall()
 		if row:
-			db.execute("UPDATE accounts SET password={1} WHERE username='{0}'".format(username, newPassword))
+			db.execute("UPDATE accounts SET password='{1}' WHERE username='{0}'".format(username, newPassword))
 			return adminPanelSite(4, 0)
 		return adminPanelSite(0, 5)
 	elif formType == 4:
